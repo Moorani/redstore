@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ........fontawesome......... -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <!-- ----------GOOGLE FONTS------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- --------Css External Stylesheet---------- -->
+    <link rel="stylesheet" href="styles.css">
+    <title>All Products- Redstore</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html"> <img src="images/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+
+    <!-- -------------Single Product details------------- -->
+
+    <div class="single-product">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/gallery-1.jpg" alt="" width="100%" id="ProductImage">
+                   <div class="small-img-row">
+                       <div class="small-img-col">
+                           <img src="images/gallery-1.jpg" alt="" class="SmallImage">
+                       </div>
+                       <div class="small-img-col">
+                           <img src="images/gallery-2.jpg" alt="" class="SmallImage">
+                       </div>
+                       <div class="small-img-col">
+                           <img src="images/gallery-3.jpg" alt="" class="SmallImage">
+                       </div>
+                       <div class="small-img-col">
+                           <img src="images/gallery-4.jpg" alt="" class="SmallImage">
+                       </div>
+                   </div>
+                </div>
+                <div class="col-2">
+                    <P>Home/T-shirt</P>
+                    <h1>Red Printed t-shirt by HRX</h1>
+                    <h4>$50.00</h4>
+                    <select name="" id="">
+                        <option value="">Select Size</option>
+                        <option value="">XXL</option>
+                        <option value="">XL</option>
+                        <option value="">Small</option>
+                        <option value="">Medium</option>
+                        <option value="">Large</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="Cart.html" class="btn">Add to Cart</a>
+                    <h3>Product Details 
+                        <i class="fas fa-indent"></i>
+                    </h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, eaque nemo reprehenderit eos et 
+                        perferendis ad enim nisi fugiat sapiente magni voluptate nobis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- -------------All Products------------- -->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related products</h2>
+            <a href="">View more</a>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star"></i>
+                    <i class="fas-icon fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+       
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -------------Footer------------- -->
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3>Download our App</h3>
+                    <p>Downlaod App for Andriod and iOS mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img class="logo-white" src="images/logo-white.png" alt="">
+                   <p>Our Purpose Is To Make the Pleasure and Benefits of Sport Accessible to the Many.</p>
+                </div>
+                <div class="col-4">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Privacy Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-write">© Copyright 2021 - Sudharth Moorani</p>
+        </div>
+    </div>
+
+
+
+
+
+  <!-- --------------Java script for toggle menu------------- -->
+
+  <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+          if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+         else {
+                MenuItems.style.maxHeight = "0px";
+            }
+      }
+  </script>
+
+
+    <!-- --------------Java script for Poduct Image ------------- -->
+
+    <script>
+        var ProductImage = document.getElementById("ProductImage");
+        var SmallImage = document.getElementsByClassName("SmallImage");
+
+        SmallImage[0].onclick = function() {
+            ProductImage.src = SmallImage[0].src;
+        }
+        SmallImage[1].onclick = function() {
+            ProductImage.src = SmallImage[1].src;
+        }
+        SmallImage[2].onclick = function() {
+            ProductImage.src = SmallImage[2].src;
+        }
+        SmallImage[3].onclick = function() {
+            ProductImage.src = SmallImage[3].src;
+        }
+
+    </script>
+
+
+
+
+
+</body>
+</html>
